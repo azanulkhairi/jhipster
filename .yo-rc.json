@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.fpt.example"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "testJhipster",
+    "packageName": "com.fpt.example",
+    "packageFolder": "com/fpt/example",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Yjk1NzM2MDI5MGFjZmQyMzhjMzhlODQzZTQ1YWMxOWUwNTI3NWRiYjIxMjM4NWQxYWEzYmU3YjQzZDhmZGJiMjE5MjVkZGJmNjFlN2VlZDQ5NDNhZjk0YzY3MjAyZDVmNGYzMGRmODc4MDNmZjIyZjg1MzUwZGMwY2EzNjZjY2Q=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
