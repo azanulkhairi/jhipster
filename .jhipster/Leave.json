@@ -1,0 +1,31 @@
+{
+    "name": "Leave",
+    "fields": [
+        {
+            "fieldName": "daysAmount",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "takenDay",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "leave",
+            "relationshipName": "employee",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190705074358",
+    "entityTableName": "leave",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
